@@ -1,0 +1,11 @@
+# *.png
+*.root
+*.tfrecord
+train_spacepoint*
+*.pkl
+*.h5
+train_SpacePointFilter*
+*.out
+*.pyc
+*.pyc.*
+*.pt
