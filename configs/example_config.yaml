@@ -1,0 +1,42 @@
+model:
+  model_name: models_name
+  in_channels: 6
+  num_blocks: 4
+  min_hidden_nodes: 64
+  dense_layers: 1
+
+
+data: 
+  train_path: /path/to/train_data.pt'
+  val_path: '/path/to/val_data.pt'
+  test_path: '/path/to/test_data.pt'
+  num_workers: 12
+
+  
+train: 
+  checkpoint_path: null
+  experiment_dir: /path/to/experiment_dir
+  accelerator: gpu
+  strategy: "auto"
+  devices: -1
+  metric_callbacks: some_metric_callbacks
+  max_epochs: 500
+  num_nodes: 1
+  precision: 32-true
+  batch_size: 1024
+  gradient_clip_val: null
+  gradient_clip_algorithm: null
+  learning_rate: 0.001
+  find_lr: null
+  lr_scheduler_patience: 3
+  early_stopping_patience: 10
+  loss_name: BCEWithLogitsLoss
+  optimizer_name: Adam
+  weight_decay: 0.00001
+  momentum: 0.001
+  lr_scheduler_name: ReduceLROnPlateau
+
+
+comet: 
+  project_name: some_project_name
+  exp_name: example_experiment_name
