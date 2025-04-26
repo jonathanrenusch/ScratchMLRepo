@@ -1,8 +1,8 @@
-# SCRATCHMLREPO
+# SCRATPYTORCHCHMLREPO
 
 ## 🚀 Your Foundation for Sustainable ML Projects
 
-This repository provides a well-structured, best-practice layout to kickstart your Machine Learning endeavors. It embodies my preferred defaults for building maintainable and scalable ML projects. Dive in and adapt it to your specific needs!
+This repository provides a well-structured, best-practice layout to kickstart your Machine Learning endeavors in pytorch-(lightning). It embodies my preferred defaults for building maintainable and scalable ML projects. Dive in and adapt it to your specific needs!
 
 
 ## 🏭 Development Principles
