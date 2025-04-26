@@ -1,4 +1,4 @@
-# SCRATPYTORCHCHMLREPO
+# ScratchPytorchMLRepo
 
 ## 🚀 Your Foundation for Sustainable ML Projects
 
