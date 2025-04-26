@@ -1,4 +1,4 @@
-# Use this file to submit the run to create your conda environment on a condor managed batching system
+# Use this file to submit the run to create your conda environment on an HTcondor managed batching system
 executable  = /path/to/create_conda_env.sh
 +JobFlavour  = "workday"
 output       = logs/output_creating_env$(ProcId).output
